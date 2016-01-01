@@ -1,0 +1,29 @@
+﻿Build started 2/13/2014 12:30:41 PM.
+     1>Project "C:\Users\Ali Hyder\Documents\Northeastern\2013-2014 Middler\EECE 3326\hydmin-3a\hydmin-3a.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\hydmin-3a.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\hydmin-3a.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt program.cpp
+         program.cpp
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\wordlist.h(60): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\wordlist.h(74): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(31): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(33): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(111): error C2065: 'print' : undeclared identifier
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(111): error C2146: syntax error : missing ';' before identifier 'grid'
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(111): error C2146: syntax error : missing ';' before identifier 'grid'
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(111): error C2275: 'grid' : illegal use of this type as an expression
+                 c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\grid.h(11) : see declaration of 'grid'
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(111): error C2146: syntax error : missing ';' before identifier 'g'
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(111): error C2275: 'grid' : illegal use of this type as an expression
+                 c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\grid.h(11) : see declaration of 'grid'
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(111): error C3861: 'g': identifier not found
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(112): error C2065: 'g' : undeclared identifier
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-3a\program.cpp(112): error C2228: left of '.printGrid' must have class/struct/union
+                 type is ''unknown-type''
+     1>Done Building Project "C:\Users\Ali Hyder\Documents\Northeastern\2013-2014 Middler\EECE 3326\hydmin-3a\hydmin-3a.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.12

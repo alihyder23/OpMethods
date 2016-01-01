@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hydmin-5a", "hydmin-5a.vcxproj", "{8CA81BE6-8749-4696-9A13-6B86A7B25DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CA81BE6-8749-4696-9A13-6B86A7B25DF5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8CA81BE6-8749-4696-9A13-6B86A7B25DF5}.Debug|Win32.Build.0 = Debug|Win32
+		{8CA81BE6-8749-4696-9A13-6B86A7B25DF5}.Release|Win32.ActiveCfg = Release|Win32
+		{8CA81BE6-8749-4696-9A13-6B86A7B25DF5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

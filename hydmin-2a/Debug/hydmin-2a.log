@@ -1,0 +1,17 @@
+﻿Build started 1/30/2014 11:58:24 AM.
+     1>Project "C:\Users\Ali Hyder\Documents\Northeastern\2013-2014 Middler\EECE 3326\hydmin-2a\hydmin-2a.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\hydmin-2a.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\hydmin-2a.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\hydmin-2a.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt program.cpp
+         program.cpp
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-2a\program.cpp(2): warning C4627: '#include "deck.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-2a\program.cpp(20): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+     1>Done Building Project "C:\Users\Ali Hyder\Documents\Northeastern\2013-2014 Middler\EECE 3326\hydmin-2a\hydmin-2a.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.98

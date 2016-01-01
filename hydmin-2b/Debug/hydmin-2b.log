@@ -1,0 +1,19 @@
+﻿Build started 2/6/2014 1:06:13 PM.
+     1>Project "C:\Users\Ali Hyder\Documents\Northeastern\2013-2014 Middler\EECE 3326\hydmin-2b\hydmin-2b.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\hydmin-2b.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\hydmin-2b.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt program.cpp
+         program.cpp
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-2b\deck.h(51): error C2600: 'deck::deck' : cannot define a compiler-generated special member function (must be declared in the class first)
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-2b\deck.h(175): error C2264: 'deck::deck' : error in function definition or declaration; function not called
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-2b\deck.h(175): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+                 c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-2b\deck.h(19): could be 'deck &deck::operator =(const deck &)'
+                 while trying to match the argument list '(deck, int)'
+     1>c:\users\ali hyder\documents\northeastern\2013-2014 middler\eece 3326\hydmin-2b\program.cpp(107): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Done Building Project "C:\Users\Ali Hyder\Documents\Northeastern\2013-2014 Middler\EECE 3326\hydmin-2b\hydmin-2b.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.66
